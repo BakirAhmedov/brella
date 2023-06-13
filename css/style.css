@@ -1,0 +1,285 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header style */
+.main__header {
+  /* position: fixed; */
+  margin: 0 auto;
+  height: 90px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.main__header,
+.nav__menu-items,
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__menu-item {
+  padding: 0 25px;
+}
+.nav__menu-item a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #214e41;
+}
+
+.brella__btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: #43806c;
+  border-radius: 6px;
+  border: none;
+}
+.login__btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 29px;
+  line-height: 20px;
+  color: #214e41;
+  border: none;
+}
+
+.language__btn {
+  font-family: "Raleway";
+  font-style: normal;
+  margin-left: 32px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #214e41;
+  border: none;
+}
+/* /// Header style */
+
+/* Main section style */
+.main__section {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  width: 100%;
+  height: 720px;
+}
+.main__section-info {
+  padding-top: 161px;
+}
+
+.main__section-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  padding-bottom: 40px;
+  color: #214e41;
+}
+.main__section-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #214e41;
+  padding-bottom: 16px;
+}
+.search__date {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 88px 20px 20px;
+  background: #ffffff;
+  border-radius: 6px 0px 0px 6px;
+  border: none;
+  color: #222222;
+}
+.search__btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 20px 30px;
+  color: #ffffff;
+  background: #43806c;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  margin-left: -3px;
+}
+
+.main__section-services {
+  margin-top: 186px;
+  position: absolute;
+  width: 1200px;
+  height: 171px;
+  background: #ffffff;
+  box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+  border-radius: 6px;
+}
+
+.main__section-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.main__section-item {
+  display: flex;
+  padding-top: 54px;
+}
+.main__section-item img {
+  padding-right: 10px;
+}
+.main__section-item__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #214e41;
+}
+
+.main__section-item__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #214e41;
+}
+/* ///Main section style */
+/* Precentage section style */
+.brella__section {
+  background: #e5e5e5;
+}
+.brella__section-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 137px;
+}
+.brella__section-subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+}
+.brella__section-info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  padding-top: 20px;
+  color: #214e41;
+}
+.brella__section-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+  padding-top: 34px;
+}
+.brella__section-btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 24px;
+  border: none;
+  background: #e5e5e5;
+  letter-spacing: 0.02px;
+  color: #214e41;
+}
+.brella__section-card__precentage,
+.brella__percentage {
+  display: flex;
+  justify-content: space-around;
+}
+.brella__section-percentage {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  padding-top: 120px;
+  color: #214e41;
+}
+.brella__section-card__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  padding-top: 30px;
+  letter-spacing: 0.02px;
+  color: #214e41;
+}
+.brella__percentage {
+  margin-left: 51px;
+}
+.precentage-card p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #214e41;
+}
+.brella__precent-left {
+  padding-top: 135px;
+}
+.brella__precent-right {
+  padding-left: 80px;
+}
+.precent__text {
+  text-align: end;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  padding-bottom: 120px;
+  color: #757575;
+}
+/* ///Precentage section style */
